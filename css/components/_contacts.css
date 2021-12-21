@@ -1,0 +1,6 @@
+.contacts__block {padding: 50px 0 63px;}
+.contacts__iframe {position: absolute; right: calc(50% + 15px); top: 0; z-index: 1; height: 100%; width: calc(50% - 15px); border: none;}
+.contacts__title {margin-bottom: 33px;}
+.list-decimal {counter-reset: list-decimal; font-size: 17px; margin-bottom: 29px;}
+.list-decimal__item {padding-left: 40px; position: relative; z-index: 1; margin-bottom: 13px;}
+.list-decimal__item::before {content: counter(list-decimal); counter-increment: list-decimal; position: absolute; left: 0; top: -2px; z-index: 1; height: 25px; line-height: 26px; text-align: center; width: 25px; background-color: var(--accent-color); color: var(--white-color); -ms-border-radius: 50%; border-radius: 50%;}

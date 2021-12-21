@@ -1,0 +1,28 @@
+@import "_normalize.css";
+@import "_bootstrap-grid.min.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_overall.css";
+@import "_global.css";
+@import "_btn.css";
+
+/* components imports */
+@import "./components/_tabs.css";
+@import "./components/_pagination.css";
+@import "./components/_carousel.css";
+@import "./components/_breadcrumbs.css";
+@import "./components/_filter.css";
+@import "./components/_sort.css";
+@import "./components/_header.css";
+@import "./components/_intro.css";
+@import "./components/_spares.css";
+@import "./components/_brands.css";
+@import "./components/_cards.css";
+@import "./components/_card.css";
+@import "./components/_advantages.css";
+@import "./components/_news.css";
+@import "./components/_contacts.css";
+@import "./components/_content.css";
+@import "./components/_footer.css";
+@import "./components/_modal.css";
+@import "_media.css";

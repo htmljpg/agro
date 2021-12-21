@@ -1,0 +1,11 @@
+.page__row--filter {border-bottom: 1px solid var(--gray-light3-color); padding-bottom: 28px;}
+.filter__buttons {margin-left: -2.5px; margin-right: -2.5px; display: flex; flex-wrap: wrap;}
+.filter__button {height: 32px; line-height: 28px; min-width: 54px; text-align: center; position: relative; z-index: 1; margin-left: 2.5px; margin-right: 2.5px; margin-bottom: 10px; padding: 0 9px; font-size: 14px; display: inline-block; vertical-align: middle; border: 2px solid var(--accent-color); -ms-border-radius: var(--border-radius-4); border-radius: var(--border-radius-4);}
+.filter__button--all {border-width: 1px; height: 30px; line-height: 28px; top: 1px;}
+.filter__button--all, .filter__button:hover {background-color: var(--accent-color); color: var(--white-color);}
+.filter__button:hover {background-color: var(--orange-color); border-color: var(--orange-color); color: var(--white-color);}
+
+.filter__block {border-bottom: 1px solid var(--gray-light3-color); padding-bottom: 20px; margin-bottom: 38px;}
+.filter__header, .sort__header {min-height: 61px; border-bottom: 3px solid #f7f7f7; margin-bottom: 31px;}
+.filter__header {padding-top: 14px;}
+.filter__menu {font-size: 14px; margin-bottom: 16px;}

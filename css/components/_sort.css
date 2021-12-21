@@ -1,0 +1,14 @@
+.sort__row  {font-size: 16px; margin-left: -5px; margin-right: -5px;}
+.sort__col {padding-bottom: 15px; padding-left: 5px; padding-right: 5px;}
+.sort__title {margin-right: 18px;}
+.sort__title--primary {margin-right: 10px; padding-top: 5px;}
+.sort__link-wrapper {padding-top: 5px;}
+.sort__link {color: var(--accent-color); margin-right: 3px; padding: 3px 7px 2px; display: inline-block; vertical-align: middle; -ms-border-radius: var(--border-radius-4); border-radius: var(--border-radius-4);}
+.sort__link:hover {color: var(--white-color); background-color: var(--accent-color);}
+.sort__link.active {color: var(--dark-color); background-color: var(--orange-color);}
+.sort__button-wrapper {margin-left: -5.5px; margin-right: -5.5px;}
+.sort__button-block {padding-left: 5.5px; padding-right: 5.5px;}
+.sort__button {height: 40px; width: 42px; border: 1px solid var(--gray-light3-color); -ms-border-radius: var(--border-radius-4); border-radius: var(--border-radius-4);}
+.sort__button.selected {color: var(--accent-color);fill: var(--accent-color);}
+.icon__svg--sort-list {height: 19px; width: 24px;}
+.icon__svg--sort-gallery {height: 21px; width: 24px;}

@@ -1,0 +1,16 @@
+.pagination {padding-bottom: 24px; padding-top: 24px;}
+.pagination__wrapper {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.pagination__items {margin-left: -5px; margin-right: -5px; font-size: 15px;}
+.pagination__item {margin-left: 5px; margin-right: 5px;}
+.pagination__item--prev {margin-right: 22px;}
+.pagination__item--next {margin-left: 22px;}
+.pagination__link, .pagination__ellipsis {background: var(--white-color) no-repeat center; display: block; padding: 0 5px; text-align: center; height: 40px;}
+.pagination__link {line-height: 38px; min-width: 42px; border: 1px solid var(--gray-light3-color); border-radius: var(--border-radius-4);}
+.pagination__link:hover, .pagination__link--active {color: var(--white-color); background-color: var(--accent-color);}
+.pagination__link:hover {background-color: var(--orange-color); border-color: var(--orange-color);}
+.pagination__link--active, .pagination__link--active:hover {background-color: var(--accent-color); border-color: var(--accent-color);}
+.pagination__link--prev, .pagination__link--next {display: flex; justify-content: center; align-items: center;}
+.pagination__link--prev {margin-right: 12px;}
+.pagination__link--next {margin-left: 12px;}
+.icon__svg--arrow-small-prev, .icon__svg--arrow-small-next {height: 12px; width: 6px;}
+.pagination__ellipsis {background-color: transparent; line-height: 1px; letter-spacing: 1px; padding: 30px 0px 3px; width: 22px;}

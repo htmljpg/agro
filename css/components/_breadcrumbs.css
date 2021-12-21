@@ -1,0 +1,6 @@
+/*breadcrumbs*/
+.breadcrumbs {margin-bottom: 2px; padding-top: 27px;}
+.breadcrumbs__items {color: var(--dark-color); line-height: 1.4667; font-size: 13px;}
+.breadcrumbs__item {display: inline;}
+.breadcrumbs__item + .breadcrumbs__item::before {content: '/'; font-size: inherit; display: inline-block; vertical-align: middle; position: relative; top: 0;}
+.breadcrumbs__span {color: #939393;}

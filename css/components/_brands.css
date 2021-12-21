@@ -1,0 +1,8 @@
+.brands__row {margin-bottom: 7px;}
+.brands__col {padding-bottom: 23px;}
+.brands__link {display: block; height: 100%; -ms-border-radius: var(--border-radius-8); border-radius: var(--border-radius-8);}
+.brands__link:hover {color: currentColor;}
+.brands__image {height: 107px; padding: 15px; line-height: 70px; display: block; text-align: center; border-bottom: 1px solid var(--gray-light2-color);}
+.brands__content {height: 53px; padding: 10px 19px;}
+.brands__name {font-size: 17px;}
+.brands__link:hover .arrow-circle__char {background-color: var(--orange-color); color: var(--white-color)}

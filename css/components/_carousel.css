@@ -1,0 +1,22 @@
+.carousel.swiper-container {overflow: visible;}
+.swiper-container-multirow-column>.swiper-wrapper {flex-direction: row; flex-wrap: nowrap;}
+.carousel .swiper-wrapper {z-index: 10;}
+.carousel > .swiper-wrapper > .swiper-slide {min-height: 100%; opacity: 0; visibility: hidden; pointer-events: none; z-index: 50; -ms-transition: opacity .2s, visibility .2s, transform .2s, z-index .2s!important; transition: opacity .2s, visibility .2s, transform .2s, z-index .2s!important;}
+.carousel > .swiper-wrapper > .swiper-slide-visible, .carousel--overflow-visible > .swiper-wrapper > .swiper-slide, .swiper-slide-visible .swiper-slide-visible {opacity: 1; z-index: 500; visibility: visible; pointer-events: auto;}
+.disc {display: flex; justify-content: center; flex-wrap: wrap; -ms-user-select: none; user-select: none;}
+.disc.disc--abs {position: absolute; width: auto; left: 50%; bottom: 0; z-index: 100; padding-bottom: 42px; padding-left: 2px; padding-top: 0; -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.disc--card-image {padding-top: 20px;}
+.disc.swiper-pagination-lock {display: none!important;}
+.disc .swiper-pagination-bullet {position: relative; cursor: pointer;}
+.disc .swiper-pagination-bullet::before {content: ''; display: block; height: 12px; width: 12px; background-color: var(--carousel-disc-background); margin: 4px; -ms-border-radius: 6px; border-radius: 6px;}
+.disc .swiper-pagination-bullet-active::before {background-color: var(--accent-color);}
+.carousel-nav {margin-left: -6.5px; margin-right: -6.5px; position: relative; top: -12px;}
+.carousel-nav__col {padding-left: 6.5px; padding-right: 6.5px;}
+.prev-next-wrapper {margin-left: auto; max-width: 121px;}
+.prev, .next {height: 52px; width: 52px; padding-bottom: 2px; background-color: var(--white-color); cursor: pointer; position: relative; z-index: 1; box-shadow: var(--box-shadow);}
+.prev--center, .next--center {position: absolute; top: 50%; margin-top: -26px; z-index: 1000;}
+.prev--center {left: -67px;}
+.next--center {right: -67px;}
+.prev.swiper-button-lock, .next.swiper-button-lock {opacity: .6;}
+.prev:hover, .next:hover {background-color: var(--accent-color);}
+.icon__svg--prev, .icon__svg--next {height: 15px; width: 7px;}

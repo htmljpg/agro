@@ -1,0 +1,44 @@
+:root {
+	--white-color: #fff;
+	--black-color: #000;
+	--accent-color: #7bb93b;
+	--dark-color: #242424;
+	--dark2-color: #393737;
+	--dark3-color: #221f1f;
+	--dark4-color: #222;
+	--gray-color: #c2c2c2;
+	--gray2-color: #a6aeb3;
+	--gray3-color: #7a7a7a;
+	--gray-light-color: #f8f8f8;
+	--gray-light2-color: #f2f2f2;
+	--gray-light3-color: #f0f0f0;
+	--gray-light4-color: #fdfdfd;
+	--gray-dark-color: #2f373c;
+	--orange-color: #ffb800;
+	--hr-border-color: #dcdcdc;
+	--btn-default-text-color: #544419;
+	--btn-shadow: 0 6px 40px rgba(255, 184, 0, .07);
+	--btn-shadow: 0 6px 40px rgba(255, 184, 0, .07);
+	--call-border-bottom-color: #8bc94b;
+	--box-shadow: 0 5px 20px rgba(5, 13, 12, .05);
+	--border-radius-8: 8px;
+	--border-radius-4: 4px;
+	--carousel-disc-background: #eceeef;
+	--top-bg-color: #ebebeb;
+	--nav-link-hover: #ffcc48;
+	--intro-price-background: #b8323b;
+	--intro-price-shadow: 0 6px 40px rgba(184, 50, 59, .18);
+	--brands-link-shadow: 0 5px 20px rgba(5, 13, 12, .03);
+	--availability-yes-bg: #eafcd8;
+	--availability-not-bg: #fcd8d8;
+	--availability-not-circle: #b93b3b;
+	--modal-overlay: rgba(0, 0, 0, .63);
+	--modal-icon-shadow: -0.14px 7.999px 16px rgba(255, 184, 0, 0.23);;
+	--footer-background: #222;
+	--footer-top-background: #2a2a2a;
+	--footer-color: #adadad;
+
+
+	--media-border-radius: 4px;
+	--media-roggle-arrow: #bababa;
+}

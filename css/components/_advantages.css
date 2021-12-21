@@ -1,0 +1,6 @@
+.advantages__items {margin-left: -4.5px; margin-right: -4.5px; padding-top: 15px; padding-bottom: 31px;}
+.advantages__item {padding-left: 4.5px; padding-right: 4.5px; margin-bottom: 9px;}
+.advantages__block {position: relative; height: 100%; z-index: 1;}
+.advantages__inner {text-align: center; min-height: 178px; overflow: hidden; height: 100%; padding: 21px 15px 29px;}
+.advantages__icon {height: 50px; margin-bottom: 16px; display: flex; justify-content: center; align-items: center;}
+.advantages__text {line-height: 1.2;}
